@@ -8,7 +8,6 @@ while True:
         median = 0
         midIndex = int(len(numbers) / 2)
         numbers.sort()
-        print("Yes")
         if len(numbers) % 2 == 0:
             median = (numbers[midIndex] + numbers[midIndex-1]) / 2
             print(median)
